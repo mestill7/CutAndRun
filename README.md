@@ -8,6 +8,7 @@ conda env create -f environment_cutrun.yaml
 
 # Install ngsutilsj
 https://github.com/compgen-io/ngsutilsj
+
 Note: rule sort_combined_lengths will require a correct path for ngsutilsj
 
 Create directory structure within the working directory:
