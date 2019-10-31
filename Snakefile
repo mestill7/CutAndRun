@@ -95,8 +95,8 @@ if config["experiment"] == "cutrun":
             cut_r2_p5 = temp("logs/{sample}_t2_R2_sorted.fastq.gz")
         run:
             shell("module load java"),
-            shell("/sc/hydra/work/estilm01/Tools/ngsutilsj-master/dist/ngsutilsj fastq-sort --output logs/{wildcards.sample}_t2_R1_sorted.fastq.gz {input.cut_r1_p4}"),
-            shell("/sc/hydra/work/estilm01/Tools/ngsutilsj-master/dist/ngsutilsj fastq-sort --output logs/{wildcards.sample}_t2_R2_sorted.fastq.gz {input.cut_r2_p4}")
+            shell("/path/to/ngsutilsj-master/dist/ngsutilsj fastq-sort --output logs/{wildcards.sample}_t2_R1_sorted.fastq.gz {input.cut_r1_p4}"),
+            shell("/path/to/ngsutilsj-master/dist/ngsutilsj fastq-sort --output logs/{wildcards.sample}_t2_R2_sorted.fastq.gz {input.cut_r2_p4}")
 
     rule bowtie2:
         input:
