@@ -1,6 +1,8 @@
 # CutAndRun
 Snakemake process for trimming and alignment of Cut&amp;Run sequencing
+
 For use in linux
+
 Developed with snakemake (v3.13.3)
 
 # Create the conda environment 
