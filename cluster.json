@@ -2,7 +2,7 @@
     "__default__" :
     {
         "queue"     : "long",
-        "allocation": "acc_Nestlerlab",
+        "allocation": "acc_ABC",
         "tasks"        : 1,
         "memory"    : 35000,
         "resources" : "\"rusage[mem=12000] span[hosts=1]\"",
@@ -10,10 +10,5 @@
         "output"    : "logs/{rule}.{wildcards}.o",
         "error"     : "logs/{rule}.{wildcards}.e",
         "walltime"    : "06:00"
-    },
-
-    "gmap_align" :
-    {
-        "walltime"    : "8:00"
-    },
+    }
 }
