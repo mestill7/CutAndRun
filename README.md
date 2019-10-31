@@ -12,6 +12,13 @@ https://github.com/compgen-io/ngsutilsj
 Note: rule sort_combined_lengths will require a correct path for ngsutilsj
 
 Create directory structure within the working directory:
+
 mkdir ./fastq/
+
 Place sample fastq.gz files in the ./fastq directory
 
+conda activate cutrun ##activate environment
+
+snakemake -nr --snakefile Snakefile ##shows what commands will be run
+
+nohup sh run_snakemake_cluster.sh & ## to run commands via bsub cluster system
