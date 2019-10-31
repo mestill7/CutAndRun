@@ -22,7 +22,6 @@ Place sample fastq.gz files in the ./fastq directory
 .
 ├── config.yaml
 ├── cluster.json
-├── config.yaml
 ├── fastq
 │   ├── Sample1_250k_R1_001.fastq.gz
 │   ├── Sample1_250k_R1_001.fastq.gz
