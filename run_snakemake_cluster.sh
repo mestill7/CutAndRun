@@ -1,5 +1,5 @@
 conda activate cutrun
-snakemake --snakefile Snake2 \
+snakemake --snakefile Snakefile \
     -j 499 \
     --cluster-config cluster.json \
     --cluster "bsub \
