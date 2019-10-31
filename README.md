@@ -32,7 +32,7 @@ Place sample fastq.gz files in the ./fastq directory
 ├── run_snakemake_cluster.sh
 └── Snakefile
 ```
-##Run 
+##Run CutAndRun
 
 conda activate cutrun ##activate environment
 
