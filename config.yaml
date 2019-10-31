@@ -4,12 +4,12 @@ experiment: "cutrun"
 
 threads_for_alignment: 4
 
-index: "/sc/hydra/work/estilm01/mm10/Mus_musculus/UCSC/mm10/Sequence/Bowtie2Index/genome" # path to basename of bowtie2 index
+index: "/path/to/mm10/Mus_musculus/UCSC/mm10/Sequence/Bowtie2Index/genome" # path to basename of bowtie2 index
 
-multiqc_yaml: "/sc/hydra/work/estilm01/Tools/NGS-Data-Charmer-master/multiqc_config_template.yaml" # example file provided in NGS-Data-Charmer folder
+multiqc_yaml: "/path/to/Tools/NGS-Data-Charmer-master/multiqc_config_template.yaml" # example file provided in NGS-Data-Charmer folder
 
 read_length: 75 ##Sequencing read length
 
 read_length_max: 74 ##Sequencing read length, minus 1
 
-chr_sizes: "/sc/hydra/work/estilm01/mm10/mm10_chr_len" # path to chr.sizes file for genome
+chr_sizes: "/path/to/mm10/mm10_chr_len" # path to chr.sizes file for genome
