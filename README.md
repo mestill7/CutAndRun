@@ -18,7 +18,7 @@ Create directory structure within the working directory:
 mkdir ./fastq/
 
 Place sample fastq.gz files in the ./fastq directory
-
+```
 .
 ├── config.yaml
 ├── cluster.json
@@ -30,7 +30,7 @@ Place sample fastq.gz files in the ./fastq directory
 │   └── Sample2_250k_R2_001.fastq.gz
 ├── run_snakemake_cluster.sh
 └── Snakefile
-
+```
 ##Run 
 
 conda activate cutrun ##activate environment
