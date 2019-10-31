@@ -1,0 +1,19 @@
+{
+    "__default__" :
+    {
+        "queue"     : "long",
+        "allocation": "acc_Nestlerlab",
+        "tasks"        : 1,
+        "memory"    : 35000,
+        "resources" : "\"rusage[mem=12000] span[hosts=1]\"",
+        "jobname"      : "{rule}.{wildcards}",
+        "output"    : "logs/{rule}.{wildcards}.o",
+        "error"     : "logs/{rule}.{wildcards}.e",
+        "walltime"    : "06:00"
+    },
+
+    "gmap_align" :
+    {
+        "walltime"    : "8:00"
+    },
+}
